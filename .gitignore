@@ -1,0 +1,59 @@
+# Zig build artifacts
+zig-cache/
+zig-out/
+build/
+build-*/
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Settings and configuration files
+settings.dat
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific files
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Linux
+.directory
+.Trash-*
+
+# Debug files
+*.pdb
+*.ilk
+*.exp
+
+# Logs and databases
+*.log
+*.sqlite
+
+# Dependencies (if you add any package management later)
+deps/
+.deps/
+
+# Environment variables
+.env
+*.env
+.env.* 
+
+
+.zig-cache/
